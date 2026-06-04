@@ -118,7 +118,7 @@ def main():
         print(f"  ✅ 第 {session} 个番茄完成！")
         show_stats()
 
-        # 每4个番茄休息一次长假
+        # 每4个番茄休息一次长休息
         if session % 4 == 0:
             print("  🎉 完成4个番茄，享受长休息！")
             input("  按回车开始长休息（15分钟）...")
